@@ -30,7 +30,6 @@ public class Fatura {
 	}
 	
 	public Double getTotalPagamento() {
-		return getBasicoPagar() + getTaxa();
+		return getBasicoPagar() - getTaxa();
 	}
-
 }
